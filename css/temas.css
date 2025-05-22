@@ -1,0 +1,13 @@
+:root{
+    --fundo1: #F7F7F7;
+    --fundo-2: #FFFFFF; 
+}
+
+@media(prefers-color-scheme: dark){
+    :root{
+        --fundo-1: rgb(46, 45, 45);
+    }
+}
+.tema-scuro{
+    background-color: black;
+}
