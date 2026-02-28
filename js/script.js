@@ -1,15 +1,24 @@
 const tema = document.getElementById('tema');
 const temaAtual = document.querySelector('body');
 
-tema.addEventListener('mouseover', function(){
-    
-    tema.innerText = 'Desenvolvedor de Software'
-    tema.style.color = '#bdbdbd'
-})
-tema.addEventListener('mouseout', function(){
-    tema.innerText = 'Weslen Oliveira'
-     tema.style.color = '#141414'
-})
+tema.addEventListener('mouseover', function () {
+
+    tema.innerText = 'Desenvolvedor Front-end';
+
+    tema.style.background = 'linear-gradient(150deg, #141414, #70da1c, #ccf235)';
+    tema.style.backgroundClip = 'text';
+    tema.style.color = 'transparent';
+    tema.style.fontWeight = 'bold';
+});
+
+tema.addEventListener('mouseout', function () {
+
+    tema.innerText = 'Weslen Oliveira';
+
+    tema.style.background = 'none';
+    tema.style.color = '#141414';
+    tema.style.fontWeight = 'normal';
+});
 
 //Menu mobile//
 
